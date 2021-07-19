@@ -1,0 +1,95 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* font-size: 1.5rem; */
+  text-align: center;
+  color: #fff;
+  margin: 0%;
+  background: linear-gradient(#202020, #283747);
+}
+
+header {
+  padding: 20px;
+  background-color: #202020;
+  color: #fff;
+  font-size: 1rem;
+  /* make it sticky */
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header:hover {
+  color: #ffdf6c;
+}
+
+nav {
+  font-size: 1rem;
+  color: #ffdf6c;
+  padding: 30px;
+  margin: 150px 50px 50px 50px;
+  background-color: #3f3f3f;
+  border-radius: 20px;
+}
+
+#image {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  display: block;
+  border-radius: 20px;
+}
+
+#img-div {
+  margin: 50px;
+  padding: 20px;
+  text-align: center;
+  font-size: 12px;
+  background: linear-gradient(#ffdf6c, #202020);
+  border-radius: 20px;
+}
+
+#img-caption {
+  margin: 10px;
+  font-size: 1.1em;
+  color: #fff;
+}
+
+#quote-div {
+  padding: 15px;
+  background: radial-gradient(circle at top right, #3f3f3f, #202020);
+  border-radius: 5px;
+  color: #ffdf6c;
+}
+
+#tribute-info {
+  padding: 20px;
+  margin: 50px;
+  text-align: left;
+  background: linear-gradient(10deg, #ffdf6c, #202020, #3f3f3f);
+  font-size: 1rem;
+  border-radius: 20px;
+}
+
+#headline {
+  color: #ffdf6c;
+}
+
+#special-fame {
+  color: #ffdf6c;
+}
+
+#special-fame:hover {
+  color: #fff;
+}
+
+footer {
+  padding: 5px;
+  background: #202020;
+  color: #ffdf6c;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
